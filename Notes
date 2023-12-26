@@ -1,0 +1,59 @@
+1. install npm install @material-ui/core
+2. paddding uses inside a container and margin outside a containrer.
+3. goto https://disease.sh/docs/ for API calling for dynamic countries.
+4. then use dynamic countries in dropdown menu in app.js
+https://disease.sh/docs/#/COVID-19%3A%20Worldometers/get_v3_covid_19_countries
+
+API : https://disease.sh/v3/covid-19/countries
+
+
+We created drop down and render countries dynamically till
+1:22:45 time on video.
+
+
+So, when we slect any country, it should be selected and show on drop down, there must be listner, and add onclick event
+
+
+# how to sort lists by cases number ?
+create new component Table.js file and create logic there..
+
+then for sorting by cases , create utils.js
+
+now, create LineGraph.js , react chart js library.
+npm install --save chart.js react-chartjs-2
+
+
+Now, install numeral
+
+
+
+
+Now, create new file for Infobox
+using wireframes, a complete divided into left and right container
+total - 4 container divided.
+
+.app__left {
+  flex: 0.9;
+}
+
+it means left container will take 90 % of flex used in window.
+
+Actually, after doing dynamic changes, for cases and total .
+We observe that on loading, it was not loading data, only after slecting and moving back to worldwide then only its showin.
+for that  we use useeffect() 
+
+we can use several useEffect().
+
+
+and then create LineGraph on right container .
+
+Create graph Map.js
+and install npm install react-leaflet
+
+
+Need : When I click on any country , it should move to selected country ?
+code in App.js ----> line no 68, 69
+
+# Now, thereafter, we want to highlight red circle on selected country over map. how to do ?
+So. I want function in Map.js who loop thorugh countries and draw circle on the screen.
+so, do changes in App.js  where we have called MAp.
