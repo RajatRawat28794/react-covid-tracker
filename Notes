@@ -68,3 +68,19 @@ so, do changes in App.js  where we have called MAp.
 4. git remote add origin https://github.com/RajatRawat28794/react-covid-tracker
 5.  git push -u -f origin main
 6. If you want to delete created orgin -->  git remote remove origin
+
+
+# create new InfoBox.css
+.infoBox {
+    flex: 1; 
+  } // it makes all 3 boxes stick to each other.
+
+
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  } // after stick to each other, it will create between boxed with 10 px.
+
+
+
+  then do changes in Table.js
+  for numeral in table...change seprated by , .

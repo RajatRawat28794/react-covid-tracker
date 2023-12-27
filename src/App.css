@@ -45,6 +45,24 @@ body {
   margin-bottom: 1rem;
 }
 
+.app__right {
+  display: flex;
+    flex-direction: column;
+}
+
+.app__right .MuiCardContent-root {
+  display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.app__graph {
+  flex-grow: 1;
+}
+
+.app__graphTitle {
+  margin-top: 20px;
+}
 .app__information > h3:last-of-type {
   margin-top: 1rem;
 }
